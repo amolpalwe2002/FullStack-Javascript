@@ -107,6 +107,13 @@
 // console.log(name.trim());
 // console.log(name.split(" "));
 
+// Type Conversion
+
+console.log(typeof 10);
+console.log(typeof "10");
+console.log(typeof 10 + 10);
+console.log(typeof (10 + 10).toString());
+
 // #################################################################
 // // Challege 1
 // let name = "John";
@@ -147,4 +154,10 @@
 // console.log(firstFavNum === secondFavNum);
 // console.log(firstFavNum != secondFavNum);
 // console.log(firstFavNum !== secondFavNum);
+
+// // Challenge 5
+// let favActorName = "Krishna";
+// let favActorLastName = "Yadav";
+// let favActorFullName = `${favActorName} Vasudev ${favActorLastName}`;
+// console.log(favActorFullName.toUpperCase());
 
